@@ -27,10 +27,10 @@ class CommentSerializer(serializers.ModelSerializer):
         model = Comment
         fields = '__all__'
 
-class PostLikeSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Post
-        fields = ['like']
+# class PostLikeSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Post
+#         fields = ['like']
 
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
